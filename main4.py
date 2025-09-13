@@ -247,13 +247,6 @@ for word in all_biblio_words:
 # 3.1.3 Probabilities
 num_categories = len(keywords)
 
-# print(frequency_C("government"))
-# print(frequency_WgivenC("american", "government"))
-# print(prob_C("government"))
-# print(prob_WgivenC("american", "government"))
-# print(log_C("government"))
-# print(log_WgivenC("american", "government"))
-
 guess_accuracy = []
 
 # 3.2 Applying the classifier to the test data
@@ -318,21 +311,4 @@ percent_correct = round(sum / len(guess_accuracy), 2)
 
 print("Overall accuracy:",sum,"out of", len(guess_accuracy), "=", percent_correct)
 
-    
 
-
-
-
-
-
-
-
-# print tests
-# for category in NumBiosInCat:
-#     print("number of bios in category", category, ":", NumBiosInCat[category])
-
-# # tester print out keywords for each category
-# for category in keywords:
-#     print("category", category, ":")
-#     for word in keywords[category]:
-#         print(word)

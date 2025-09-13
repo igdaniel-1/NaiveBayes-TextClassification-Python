@@ -1,4 +1,4 @@
-Thank you for taking the time to read my README.txt !
+Thank you for taking the time to read my README.md !
 
 # Instructions
 
